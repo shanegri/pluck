@@ -1,6 +1,6 @@
 # Pluck
 
-Pluck is a command-line tool for downloading videos and audios from YouTube using `yt-dlp` and `moviepy` Python libraries.
+Pluck is a command-line tool for downloading videos and audios from YouTube using `yt-dlp` and `moviepy` Python libraries. Note that Pluck also depends on `ffmpeg` for audio extraction and video merging.
 
 ## Install
 
@@ -11,6 +11,8 @@ git clone https://github.com/your-username/pluck.git
 cd pluck
 pip install -r requirements.txt
 ```
+
+Additionally, you need to have `ffmpeg` installed on your system. You can install it using your system's package manager, or download a binary from the official [FFmpeg website](https://ffmpeg.org/download.html).
 
 Alternatively, you can use the following command to install Pluck in "editable" mode, which links the local copy of the repository to your Python environment:
 
