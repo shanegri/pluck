@@ -1,0 +1,6 @@
+# build
+*.pyc
+pluck.egg-info/
+
+# ide
+.vscode
